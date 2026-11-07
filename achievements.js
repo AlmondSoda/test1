@@ -14,28 +14,28 @@ const achievements = [
   {
     name: "First Steps",
     description: "Add your first observation to the project.",
-    projectId: "your-project-slug",
+    projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 1
   },
   {
     name: "Regular",
     description: "Add 25 observations to the project.",
-    projectId: "your-project-slug",
+    projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 25
   },
   {
     name: "Species Collector",
     description: "Find 10 different species.",
-    projectId: "your-project-slug",
+    projectId: "wlc-f26-bioblitz",
     type: "species",
     goal: 10
   },
   {
     name: "Bird Watcher",
     description: "Find 5 different kinds of birds.",
-    projectId: "your-project-slug",
+    projectId: "wlc-f26-bioblitz",
     type: "species",
     goal: 5,
     taxonId: 3
@@ -43,7 +43,7 @@ const achievements = [
   {
     name: "Verified",
     description: "Get 10 research grade observations.",
-    projectId: "your-project-slug",
+    projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 10,
     researchGrade: true
