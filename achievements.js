@@ -8,7 +8,7 @@
 //                47158 = insects, 47170 = fungi. Other ids are in a taxon page's address.
 // researchGrade: (optional) set to true to only count research grade observations
 
-const siteTitle = "Riverside BioBlitz Achievements";
+const siteTitle = "wlc BioBlitz Achievements";
 
 const achievements = [
   {
