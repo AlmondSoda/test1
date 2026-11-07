@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background: #eef2ec;
+  color: #1f2a22;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background: #1d4d36;
+  color: #fff;
+  padding: 40px 20px 32px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-family: Georgia, serif;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0 0 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  position: absolute;
+  left: -9999px;
+}
+
+input, button {
+  font: inherit;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+}
+
+input {
+  width: 240px;
+}
+
+button {
+  background: #f2c94c;
+  color: #2b2200;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6b92f;
+}
+
+input:focus-visible, button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+#message {
+  text-align: center;
+  font-weight: 600;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #fff;
+  border: 2px dashed #b8c4b9;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.card h3 {
+  margin: 0 0 4px;
+  font-family: Georgia, serif;
+}
+
+.card p {
+  margin: 0 0 14px;
+  font-size: 0.95rem;
+}
+
+.bar {
+  height: 8px;
+  background: #dfe6df;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #6a9a7b;
+}
+
+.card small {
+  display: block;
+  margin-top: 6px;
+}
+
+/* earned achievements get a solid green fill so they stand out */
+.card.done {
+  background: #1d4d36;
+  border: 2px solid #1d4d36;
+  color: #fff;
+}
+
+.card.done .bar {
+  background: #3b6d54;
+}
+
+.card.done .fill {
+  background: #f2c94c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}

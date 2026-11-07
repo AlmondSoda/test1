@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Achievements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="site-title">Project Achievements</h1>
+    <p>Enter your iNaturalist username to see which achievements you've earned.</p>
+    <form id="user-form">
+      <label for="username">iNaturalist username</label>
+      <input id="username" type="text" autocomplete="off" required>
+      <button type="submit">Check achievements</button>
+    </form>
+  </header>
+
+  <main>
+    <p id="message"></p>
+    <div id="results"></div>
+  </main>
+
+  <footer>Observation data comes from <a href="https://www.inaturalist.org">iNaturalist</a>.</footer>
+
+  <script src="achievements.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
