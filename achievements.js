@@ -64,4 +64,5 @@ const achievements = [
     type: "species",
     goal: 15,
     taxonId: 47178
+  }
 ];
