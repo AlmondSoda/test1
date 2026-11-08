@@ -54,7 +54,7 @@ const achievements = [
     projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 10,
-    researchGrade: true
+    researchGrade: true,
     taxonId: 3
   }
 ];
