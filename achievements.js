@@ -16,8 +16,7 @@ const achievements = [
     description: "Add your first observation to the project.",
     projectId: "wlc-f26-bioblitz",
     type: "observations",
-    goal: 1,
-    image: "images/tubble.jpg",
+    goal: 1
   },
   {
     name: "regular",
