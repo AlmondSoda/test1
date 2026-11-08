@@ -12,21 +12,21 @@ const siteTitle = "wlc BioBlitz Achievements";
 
 const achievements = [
   {
-    name: "First Steps",
+    name: "first Steps",
     description: "Add your first observation to the project.",
     projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 1
   },
   {
-    name: "Regular",
+    name: "regular",
     description: "Add 25 observations to the project.",
     projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 25
   },
   {
-    name: "Species Collector",
+    name: "species Collector",
     description: "Find 10 different species.",
     projectId: "wlc-f26-bioblitz",
     type: "species",
@@ -41,7 +41,7 @@ const achievements = [
     taxonId: 3
   },
   {
-    name: "Verified",
+    name: "verified",
     description: "Get 10 research grade observations.",
     projectId: "wlc-f26-bioblitz",
     type: "observations",
@@ -56,5 +56,12 @@ const achievements = [
     goal: 25,
     researchGrade: true,
     taxonId: 3
-  }
+  },
+  {
+    name: "master baiter",
+    description: "Observe 15 different fish species.",
+    projectId: "wlc-f26-bioblitz",
+    type: "species",
+    goal: 15,
+    taxonId: 47178
 ];
