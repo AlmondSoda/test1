@@ -72,7 +72,7 @@ const achievements = [
     projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 4000,
-    images: "images/woodfrog.png"
+    image: "images/woodfrog.png"
   },  
   {
     name: "test again",
@@ -80,6 +80,6 @@ const achievements = [
     projectId: "wlc-f26-bioblitz",
     type: "observations",
     goal: 100,
-    images: "images/woodfrog.png"
+    image: "images/woodfrog.png"
   }
 ];
