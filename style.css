@@ -134,3 +134,22 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+
+.card img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 0 12px;
+}
+
+/* achievements that aren't earned yet look washed out */
+.card:not(.done) img {
+  filter: grayscale(1);
+  opacity: 0.55;
+}
+
+.card.done img {
+  border: 3px solid #f2c94c;
+}
