@@ -65,7 +65,14 @@ function makeCard(achievement, count, done) {
 
   const card = document.createElement("div");
   card.className = done ? "card done" : "card";
+  let imageHtml = "";
+  if (achievement.image) {
+    // if the file is missing, the onerror part just removes the broken image
+    imageHtml = '<img src="' + achievement.image + '" alt="" onerror="this.remove()">';
+  }
+
   card.innerHTML =
+    imageHtml +
     "<h3>" + achievement.name + "</h3>" +
     "<p>" + achievement.description + "</p>" +
     '<div class="bar"><div class="fill" style="width: ' + percent + '%"></div></div>' +
