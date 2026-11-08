@@ -53,7 +53,7 @@ const achievements = [
     description: "Get 25 research grade bird observations.",
     projectId: "wlc-f26-bioblitz",
     type: "observations",
-    goal: 10,
+    goal: 25,
     researchGrade: true,
     taxonId: 3
   }
